@@ -1,0 +1,19 @@
+{
+	"name": "vue-explore",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "bun scripts/dev.config.js reactivity -f esm"
+	},
+	"devDependencies": {
+		"@types/minimist": "^1.2.5",
+		"@types/node": "^24.10.0",
+		"esbuild": "^0.25.12",
+		"globals": "^16.5.0",
+		"minimist": "^1.2.8",
+		"typescript": "^5.9.3"
+	},
+	"workspaces": [
+		"packages/*"
+	]
+}
